@@ -1,0 +1,27 @@
+h2 {
+    vertical-align: middle;
+    text-align: center;
+    color: grey;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+a {
+    color: rgb(228, 219, 97);
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+h1 {
+	color: skyblue;
+	font-family: 'Yusei Magic', sans-serif;
+	text-align: center;
+	margin-top: 300px;
+	font-size: 55pt;
+	/*z-index: 2;*/
+	text-shadow: 3px 4px 3px rgb(255, 187, 0, 1), 0 0 1em rgb(87, 255, 227);
+   -webkit-text-stroke: 0.01px black;
+}

@@ -1,0 +1,174 @@
+/*#######_menu_#######*/
+#menu8{
+    width: 100%;
+    height: 45px;
+	background-color: #ff9d00;
+	font-family: Arial;
+} 
+.menu {
+	box-shadow: rgb(255, 159, 159);
+}
+
+#menu8 li{
+    display: inline-block;
+    margin-top: 5px;
+}
+
+#menu8 a:link, #menu8 a:visited{
+	color: #FFFFFF; 
+	text-decoration: none; 
+	display: block;
+	padding: 0px 13px;
+	line-height: 35px;
+	text-align: center;
+	font-size: 15px;
+}
+
+#menu8 a:hover{
+	color: #FFFFFF;
+	text-decoration: none;
+	background-color: #ff8989;
+}
+
+#menu8 ul{
+	position: relative;
+	left: 1450px;
+	padding: 1px;
+	position: relative;
+}
+
+#img1 {
+	margin-top: 314px;
+}
+
+/*#######_menu_#######*/
+
+#videom {
+    vertical-align: middle;
+    position: absolute;
+    top: 380px;
+    left: 650px;
+    transition: ease-in;
+}
+
+iframe {
+	border: 2px dotted grey;
+	padding: 40px;
+	border-radius: 10px;
+}
+
+
+.scale {
+    transition: 1s;
+   }
+.scale:hover {
+    transform: scale(1.2);
+   }
+
+.linetop {
+	margin-top: 70px;
+	margin-left: 200px;
+}
+
+.linetop .scale {
+	padding: 10px;
+}
+
+#fourthp {
+	height: 172px;
+	width: 300px;
+}
+
+#firstp {
+	height: 172px;
+	width: 300px;
+}
+
+#bottomline {
+	margin-top: 600px;
+	margin-left: 300px;
+}
+
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.footer {
+	border-top: 1px dotted grey;
+	height: 130px;
+    position: relative;
+    top: 200px;
+}
+
+#right {
+	color: grey;
+	margin-left: 30px;
+	margin-top: 20px;
+	width: 600px;
+	text-align: left;
+}
+
+a {
+	text-decoration: none;
+	color: grey;
+}
+
+a:hover {
+	color: black;
+}
+
+body {
+	background: url(../Photos/background54.png);
+	overflow-x: hidden;
+	overflow-y: scroll;
+	width: 100%;
+  }
+
+#right p, #middle p {
+	font-family: 'Yusei Magic', sans-serif;
+}
+
+#middle {
+	position: absolute;
+	right: 30px;
+	top: 10px;
+}
+
+#middle p {
+	text-align: right;
+}
+
+#content2 #right, #left {
+	position: absolute;
+	top: 390px;
+	left: 130px;
+	width: 350px;
+	height: 350px;
+	/*background-color: rgba(240, 230, 140, 0.705);
+	border: 2px dotted grey;*/
+	box-shadow: 0 0 50px 10px rgba(33, 34, 27, 0.11);
+}
+
+#content2 #left {
+	position: absolute;
+	left: 1400px;
+	top: 410px;
+}
+
+#content2 #right p, #left p {
+	text-align: center;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	padding: 15px;
+	font-size: 35pt;
+	margin-top: 60px;
+	color: black;
+}
+
+#content2 #left p {
+	 margin-top: 45px;
+	 color: black;
+}
+
+body {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 1400px;
+}
